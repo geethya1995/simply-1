@@ -9,7 +9,7 @@ public record UndefinedLibraryImportError(String libName) implements SimplyError
 
         return "Error:" +
                 this.getErrorType() + "\n" +
-                "Library " + this.libName + " not defined";
+                "Library " + this.libName + " node defined";
     }
 
     @Override
